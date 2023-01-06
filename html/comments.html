@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comments</title>
+        <link href="../css/text.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+    </head>
+    <body onload = "pageLoad()">
+        <div id="nav">
+            <ul>
+                <li class="navHead">Comments</li>
+                <li class="navSub"><a href="../index.html" id="submitNav1">Home</a></li>
+                <li class="navSub"><a href="colorTheory.html" id="submitNav2">Color Theory</a></li>
+                <li class="navSub"><a href="formsOfArt.html" id="submitNav3">Forms Of Art</a></li>
+                <li class="navSub"><a href="painting.html" id="submitNav4">Painting</a></li>
+                <li class="navSub"><a href="comments.html" id="submitNav5">Comments</a></li>
+                <li class="navSub"><a href="contact.html" id="submitNav6">Contact Us</a></li>
+                <li class="navSub"><a href="saveForLater.html" id="submitNav7">Saved</a></li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub">&#8205</li>
+                <li class="navSub" id="raveButton">RAVE</li>
+            </ul>
+        </div>
+        <div id="nav1">
+            <a href="#head" id="submit">Back to Top</a>
+        </div>
+        <br><h1 id="head" style="color: rgb(255, 255, 255);">Comments</h1>
+        <br>
+
+        <!--Content -->
+
+        <button id="show-hide-button">SHow/Hide Comments</button>
+        <div id="show-hide">
+            <!--Comment Adder-->
+            <div id="commentAdder">
+                <label>Leave a comment</label><br>
+                <input class="glowing-border" type="text" name="comment" id="comment">
+                <button id="commentSubmit" onclick="comment()">Submit</button>
+            </div>
+
+            <!--Comment Section-->
+            <div class="commentBlock" id="commentSection">
+            </div>
+        </div>
+        <!-- Form for user information -->
+        <fieldset>
+            <p>Subscribe to our Email</p>
+            <div class="form-control">
+            <label>Name</label>
+            <input>
+            </div>
+    
+            <div class="form-control">
+            <label>Email</label>
+            <input>
+            </div>
+            <p id=form-prompt>What would you like to be subscribed to?</p>
+            <input type="radio">
+            <label>Newsletter</label>
+            <input type="radio">
+            <label>Tips-and-Tricks</label>
+            <input type="radio">
+            <label>Development and career opportunities </label>
+            
+            <div><button type="submit">Submit</button></div>
+        </fieldset>
+    </body>
+    <script src="../javascript/websiteJavascript.js" type="text/javascript"></script>
+</html>

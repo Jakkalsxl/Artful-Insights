@@ -1,0 +1,336 @@
+//General Css
+.bground{
+    background-color: #F1F1EE;
+    background-position-x: 900px;
+        
+}
+
+.left{
+    text-align: left;
+    width: 520px;
+    padding-left: 10%;
+}
+.right{
+    text-align: left;
+    width: 482px;
+    padding-left: 50%;
+}
+.center{
+    text-align: center;
+    width:1000px;
+    padding-left:20%;
+}
+#header,#header1,#header2,#header3,#header4,#header5,#header6,#header7{
+    font-weight: bold;
+    margin:17pt;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+}
+#subheader,#subheader1,#subheader2{
+    color:#8C8C82;
+    font-size: 25px;
+    margin: 17px;
+    font-weight: bold;
+}
+.thead{
+    font-size: 18px utopia;
+    margin: 35px;
+    font-weight: bold;
+    background-color: #b7b7ae;
+}
+.tableDesign tr td{
+    border-color: black;
+    border-style:solid;
+    border-radius: 10pt;
+}
+#text,#text1,#text2,#text3,#text4,#text5,#text6,#text7,#text8,#text9,#text10{
+    margin: 17px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image img {
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+    font-size: 0pt;
+}
+.image:hover img {
+    width: 300px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    font-size: 14px;
+}
+
+//nav bar
+#submit {
+    background-color: #eaeaea;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald';
+    font-size: 20px;
+    border: black solid;
+}
+#submit:hover {
+    border: none;
+    color: rgb(255, 255, 255);
+    background-image: url(../images/index/banner.png);
+    box-shadow: 0px 0px 1px #777;
+    border: black solid;
+    text-shadow: 2px 0 rgb(0, 0, 0), -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 0 -2px rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+}
+#submitNav1,#submitNav2,#submitNav3,#submitNav4,#submitNav5,#submitNav6,#submitNav7,#submitNav8 {
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    background: none;
+    height:41.5pt;
+    margin:10;
+    margin-top: -4pt;
+    margin-bottom: 0pt;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+#submitNav1:hover,#submitNav2:hover,#submitNav3:hover,#submitNav4:hover,#submitNav5:hover,#submitNav6:hover,#submitNav7:hover,#submitNav8:hover {
+    border: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0 rgb(0, 0, 0), -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 0 -2px rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+}
+#nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    min-height: 7vh;
+    background-image: url(../images/index/banner.png);
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-top: -6pt;
+    margin-left: -7pt;
+    width: 1110pt;
+    color:rgb(255, 255, 255);
+    
+}
+#nav ul{
+
+    display:flex;
+    margin: -1pt;
+    justify-content: space-between 10;
+    padding-left: 0px;
+}
+#nav li{
+    margin: -1pt;
+    margin-bottom: -5pt;
+    margin-top: 20pt;
+    display:flex;
+    justify-content: space-between 10;
+    padding-left: 20pt;
+}
+.navHead{
+    font-weight: bold;
+    margin-right: 30pt;
+    font-size: 24px;
+    
+    padding-top: -60%;
+    color: black;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+.navSub{
+    font-weight: bold;
+    font-size: 15px;
+}
+#nav1 {
+    position: fixed;
+    float: right;
+    display: flex;
+
+    min-height: 7vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-top: 56%;
+    margin-left: 1160px;
+    
+}
+.navSub a {
+    text-decoration: none;
+    color: black;
+  }
+  
+.navSub a:hover {
+    text-decoration: none;
+}
+
+
+//Save Buttons
+
+
+.save{
+    margin-left: -50%;
+    font-size: 20pt;
+    background: transparent;
+    border:none;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.save:hover{
+    border: none;
+    background: transparent;
+    margin-left: -50%;
+    font-size: 20pt;
+    -webkit-text-stroke: 2px rgb(255, 0, 0);
+}
+.clicked{
+    border: none;
+    background: transparent;
+    color: red;
+    margin-left: -50%;
+    font-size: 20pt;
+    -webkit-text-stroke: 2px rgb(255, 0, 0);
+    animation: glitch 1s linear infinite;
+}
+.btnLeft{
+    text-align: left !important;
+    width: 520px !important;
+    padding-left: 10% !important;
+}
+.btnRight{
+    text-align: left !important;
+    width: 482px !important;
+    padding-left: 50% !important;
+}
+
+
+//Like Buttons
+.like{
+    margin-left: -50%;
+    font-size: 20pt;
+    background: transparent;
+    border:none;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.like:hover{
+    border: none;
+    background: transparent;
+    margin-left: -50%;
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px greenyellow;
+}
+.click{
+    border: none;
+    background: transparent;
+    color: greenyellow;
+    margin-left: -50%;
+    font-size: 20pt;
+    -webkit-text-stroke: 2px greenyellow;
+    animation: glitch 1s linear infinite;
+}
+
+
+
+//Glitching animation sourced from "https://codepen.io/pgalor/pen/OeRWJQ"
+
+@keyframes glitch{
+    2%,64%{
+        transform: translate(1px,0) skew(0deg);
+    }
+    4%,60%{
+        transform: translate(-1px,0) skew(0deg);
+    }
+    62%{
+        transform: translate(0,0) skew(5deg); 
+    }
+}
+.click:before,
+.click:after{
+    content: attr(title);
+    position: absolute;
+    left: 0;
+}
+.click:before{
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+@keyframes glitchTop{
+    2%,64%{
+        transform: translate(1px,-1px);
+    }
+    4%,60%{
+        transform: translate(-1px,1px);
+    }
+    62%{
+        transform: translate(3px,-1px) skew(-13deg); 
+    }
+}
+.click:after{
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+@keyframes glitchBotom{
+    2%,64%{
+        transform: translate(-2px,0);
+    }
+    4%,60%{
+        transform: translate(-2px,0);
+    }
+    62%{
+        transform: translate(-22px,5px) skew(21deg); 
+    }
+}
+//Contact Page CSS
+.form{
+    outline: black solid 1pt;
+    margin-bottom: 10pt;
+    padding:10pt;
+}
+.form input,select{
+    float: right;
+    margin-left: 20%;
+    margin:5pt;
+}
+.form label{
+    float: left;
+    margin:5pt;
+}
+.formT tr td{
+    border-bottom: groove gainsboro 2px ;
+    margin: -10pt;
+}
+
+.glowing-border {
+    border: 2px solid #dadada;
+    border-radius: 2pt; 
+    size: 286.5;  
+}
+.glowing-border:focus { 
+    outline: none;
+    border-color: #9eedbe;
+    box-shadow: 0 0 10px #9eedbe;
+    border:1pt solid #009600;
+    border-radius: 2pt;
+}
+//Comment Section
+.comment {
+    border: 2px solid #dadada;
+    border-radius: 2pt; 
+    size: 6.5;  
+}
+.commentBlock{
+    border: black 1px solid;
+    
+}
+
+.raveC{
+    font-size: 24px;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 0 rgb(255, 0, 0), -2px 0 rgb(239, 0, 0), 0 2px rgb(255, 0, 0), 0 -2px rgb(255, 0, 0), 1px 1px rgb(255, 0, 0), -1px -1px rgb(255, 0, 0), 1px -1px rgb(255, 0, 0), -1px 1px rgb(255, 0, 0) !important;
+}
+#raveButton{
+    font-size: 24px;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
