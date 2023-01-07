@@ -15,4 +15,4 @@ To install this project, simply download the ZIP file from the repository and ex
 To use this project, open the index.html file in a web browser. From there, users can browse the various sections of the website, save icons to their saved folder, like items, leave comments on the comments page, and get in touch on the contact page.
 
 ## Credits
-This project was created by Jakkalsxl.
+This project was created by [Jakkalsxl](https://github.com/Jakkalsxl).
